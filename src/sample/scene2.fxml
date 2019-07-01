@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextFlow layoutX="201.0" layoutY="14.0" prefHeight="43.0" prefWidth="200.0">
+         <children>
+            <Label contentDisplay="CENTER" prefHeight="41.0" prefWidth="129.0" text="The Office Flat File" textAlignment="CENTER" />
+         </children>
+      </TextFlow>
+      <Button fx:id="openRegister" layoutX="14.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#openRegister" prefHeight="79.0" prefWidth="179.0" text="Subject Code" />
+      <Button fx:id="dateOPened" layoutX="343.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#dateOpened" prefHeight="79.0" prefWidth="189.0" text="Date Opened" />
+   </children>
+</AnchorPane>
